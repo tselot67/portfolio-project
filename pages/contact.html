@@ -17,8 +17,69 @@
             </nav>
         </header>
         <section>
-            <h2> Contact Me </h2>
-            <h3> We can get in touch </h3>
+            <br>
+            <h2> Contact Me </h2><br>
+            <h3> Contact Info </h3>
+            <p>
+                <img src = "../images/email-8-svgrepo-com.svg" 
+                alt ="Email icon" width ="20" height ="20" align ="middle"/>
+                amaretselot@gmail.com
+            </p>
+            <p>
+                <img src = "../images/telephone-svgrepo-com.svg" 
+                alt ="Telephone icon" width ="20" height ="20" align ="middle"/>
+                +251986473526
+            </p>
+            <p>
+                 <img src = "../images/location-svgrepo-com.svg" 
+                alt ="Location icon" width ="20" height ="20" align ="middle"/>
+                Addis Ababa, Ethiopia
+            </p>
+            <h3> Social Handles </h3>
+            <p> 
+                <img src = "../images/linkedin-svgrepo-com.svg" 
+                alt ="Linkedin icon" width ="20" height ="20" align ="middle"/>
+            <a href ="https://www.linkedin.com/in/tselot-amare-258093348">@tselot-amare</a>
+            </p>
+            <p> 
+                <img src = "../images/github-142-svgrepo-com.svg" 
+                alt ="GitHub icon" width ="20" height ="20" align ="middle"/>
+                <a href = "https://github.com/tselot67"> @ tselot-amare</a>
+            </p>
+        </section>
+        <br>
+
+        <!-- This is the contact form section -->
+        <section>
+            <form>
+                <h2> Contact Us </h2>
+                <h3> Full Name: </h3>
+                <input type = "text" name="fullName" placeholder="Enter your full name" required/>
+                <h3> Email: </h3>
+                <input type = "email" name ="email" placeholder="Enter your email" required/>
+                <h3> Telephone: </h3>
+                <input type="tel" name="telephone" placeholder="Enter your telepone" required/>
+                <h3> Gender:</h3>
+                <input type="radio" name = "Gender" value="Male" required/><span>Male</span>
+                <input type="radio" name="Gender" value="Female" required/><span>Female</span>
+                <h3> Subscribtion </h3>
+                <input type="checkbox" name="subscribe" id="subscribe"/>
+                <label for="subscribe"> Subscribe to my portfolio updates </label>
+                <h3> Message: </h3>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" placeholder="Enter your message here" rows="6" cols="40"></textarea>
+                <br><br><br>
+                <label for="skill"> HTML Skill Level: </label>
+                <input type="range" id="skill" name="skill" min="0" max="100" value="80"/>
+                <br><br>
+                <label for="skill"> CSS Skill Level: </label>
+                <input type="range" id="skill" name="skill" min="0" max="100" value="40"/>
+                <br><br>
+                <label for="skill"> JavaScript Skill Level: </label>
+                <input type="range" id="skill" name="skill" min="0" max="100" value="20"/>
+                <br><br><br>
+                <button>Submit</button>
+            </form>
         </section>
     </body>
 </html>
